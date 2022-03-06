@@ -20,9 +20,9 @@ docker run scheduler-rust:v1
 A JobScheduler is created, hashmap jobs_to_run is created to store jobs. You can add/stop/remove jobs, or clear the job hashmap. 
 
 You can create 3 types of job:
-    - CronJob: cron like job, runs on specified UTC time
-    - OneShot: runs once in a duration
-    - Repeated: runs repeatly at a fixed interval
+* CronJob: cron like job, runs on specified UTC time
+* OneShot: runs once in a duration
+* Repeated: runs repeatly at a fixed interval
 
 If you are creating a cron like job, please use the `FromStr` impl for the
 `Schedule` type of the [cron](https://github.com/zslayton/cron) library.
