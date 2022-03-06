@@ -1,0 +1,20 @@
+[package]
+name = "scheduler_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+cron = "0.8"
+chrono = "0.4"
+uuid = { version = "0.8", features = ["v4"] }
+futures = "^0.3.17"
+scopeguard = "^1.1.0"
+async-trait = "^0.1.52"
+mockall = "0.10.2"
+
+[dev-dependencies]
+tokio-test = "^0.4.2"
+
