@@ -47,7 +47,4 @@ execute once per hour but only on day 5 through 10 of the month.
 Day of the week can be specified as an abbreviation or the full name. A
 schedule of `0 0 6 * * Sun,Sat` would execute at 6am on Sunday and Saturday.
 
-A simple example is provided in the examples directory.
-
-```
 
